@@ -1,15 +1,15 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Example</title>
-    </head>
     <body>
-        <h2> Why are there so many questions?</h2>
         
-        <p id="demo">This is an example of an HTML page with one paragraph.</p>
- 
-        <button type="button"
-                onclick="document.getElementById('demo').style.fontsize='35px'">Press Here.</button>
+        <h1> A Web Page</h1>
+        <p id="demo">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Try It</button>
         
-        
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "paragraph changed.";
+            }
+        </script>
     </body>
 </html>
